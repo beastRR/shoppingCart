@@ -36,7 +36,7 @@ const Cart = ({cartItem,remove,purchase})=>{
            
             {cartItem.map(prod=>(
                 <div key={prod.id} >
-                <img className="border border-dark rounded cartImg" src={prod.tiny} alt="product-image-cart" width={120} />
+                <img className="border border-dark rounded cartImg" src={prod.tiny} alt="product-imagee-cart" width={120} />
                 <button className=" btn-outline-warning btnRemove" onClick={()=>remove(prod)}>
                     <img  className="delImg" src={img}  alt="" /></button>
 
