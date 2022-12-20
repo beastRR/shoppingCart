@@ -1,0 +1,97 @@
+.btnRemove{
+    float: right;
+    margin: 25px 0 0 0 ;
+    /* position:static; */
+    border: none;
+    background: white;
+    border-radius: 7px;
+    
+
+    /* width:80px; */
+}
+.btnRemove:hover{
+    background: rgb(231, 228, 222);
+}
+.price{
+    float: right;
+    transform: translate(0,45px);
+}
+
+.cartMain{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+ }
+/* .btnCenter{ */
+/* justify-content: center; */
+/* } */ 
+
+.parentFlex{
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    /* justify-content:flex-start; */
+    align-items: center;
+
+}
+
+.delImg{
+    max-width:30%;
+    
+}
+
+.boxShadow{
+    box-shadow: 3px 3px 4px 1px gray;
+    /* border: 2px solid gray; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(162, 179, 172, 0.922);
+
+}
+
+@media only screen and (max-width:1200px){
+    .btnRemove{
+        float: right;
+        max-width: 20%;
+        max-height: 20%;
+        /* margin: 25px 0 0 0 ; */
+        /* position:static; */
+        /* width:80px; */
+    }
+    .delImg{
+        max-width: 55%;
+        position: relative;
+        max-height: 50%;
+        text-align: center;
+        
+    }
+
+    .cartImg{
+        max-width: 35%;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+    .btnRemove{
+        float: right;
+        min-width: 10%;
+        min-height: 10%;
+        transform:translate(0,-80%);
+        /* margin: 25px 0 0 0 ; */
+        /* position:static; */
+        /* width:80px; */
+    }
+    .delImg{
+         min-width: 0.8rem; 
+        position: relative;
+        min-height: 0.8rem; 
+        text-align: center;
+        
+    }
+}
+
+.cartDiv{
+    box-shadow: 3px 3px 5px 7px grey;
+}
