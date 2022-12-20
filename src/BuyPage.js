@@ -3,7 +3,7 @@ import Axios from "axios";
 import randomWords from "random-words";
 import { v4 as uuidv4 } from 'uuid';
 // import { faker } from '@faker-js/faker';
-import abc from "./abc.json";
+// import abc from "./abc.json";
 import ProductCard from "./ProductCard";
 import Cart from "./Cart";
 import "./style.css";
